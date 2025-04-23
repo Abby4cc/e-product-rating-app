@@ -7,6 +7,7 @@ import ProductCard from './components/ProductCard';
 import RatingModal from './components/RatingModal';
 import ReviewForm from './components/ReviewForm';
 import SearchBar from './components/SearchBar';
+import CategoryFilter from './components/CategoryFilter'; 
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -16,7 +17,7 @@ function App() {
   const [comment, setComment] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
   const [username, setUsername] = useState('');
-
+  const [filteredCategory, setFilteredCategory] = useState('all'); 
 
   useEffect(() => {
     fetch('https://fakestoreapi.com/products')
@@ -55,8 +56,11 @@ function App() {
       });
   };
 
+  const categories = [...new Set(products.map(p => p.category))];
+
   const filteredProducts = products.filter((p) =>
-    p.title.toLowerCase().includes(searchTerm.toLowerCase())
+    p.title.toLowerCase().includes(searchTerm.toLowerCase()) &&
+    (filteredCategory === 'all' || p.category === filteredCategory)
   );
 
   return (
@@ -66,7 +70,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="container mt-5 text-center">
+            <div className="container mt-5 text-center ">
               <h1>The Ultimate Guide to Rating and Discovering Top Products</h1>
               <p>Share Your Feedback !</p>
             </div>
@@ -78,6 +82,11 @@ function App() {
             <div className="container mt-4">
               <h2 className="mb-3">Available Products</h2>
               <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+              <CategoryFilter
+                selectedCategory={filteredCategory}
+                onCategoryChange={setFilteredCategory}
+                categories={categories}
+              />
               <div className="d-flex flex-wrap justify-content-start gap-4 mt-3">
                 {filteredProducts.map((product) => (
                   <ProductCard key={product.id} product={product} onRateClick={setSelectedProduct} />
@@ -118,4 +127,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 

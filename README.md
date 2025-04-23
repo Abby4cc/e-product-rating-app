@@ -28,7 +28,7 @@ A React-based E-Commerce product review system built using the Fake Store API an
 ##  Technologies Used
 
 - React
-- Bootstrap 5
+- Bootstrap css
 - React Router DOM
 - JSON Server (local REST API)
 - Fetch API
@@ -40,8 +40,8 @@ A React-based E-Commerce product review system built using the Fake Store API an
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/Abby4cc/e-product-rating-system.git
-cd e-product-rating-system
+git clone https://github.com/Abby4cc/e-product-rate-app.git
+cd e-product-rate-app
 
 Author
 Made  by Abigail Chelangat
