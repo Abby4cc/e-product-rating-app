@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/e-product-rating-app/static/css/main.918bacc1.css",
+    "main.js": "/e-product-rating-app/static/js/main.3576e5af.js",
+    "index.html": "/e-product-rating-app/index.html",
+    "main.918bacc1.css.map": "/e-product-rating-app/static/css/main.918bacc1.css.map",
+    "main.3576e5af.js.map": "/e-product-rating-app/static/js/main.3576e5af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.918bacc1.css",
+    "static/js/main.3576e5af.js"
+  ]
+}
