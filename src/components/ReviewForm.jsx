@@ -35,7 +35,7 @@ function ReviewForm() {
 
   return (
     <div>
-      <h2 className="mb-4">All Reviews 💬</h2>
+      <h2 className="mb-4 fw-bold">All Reviews 💬</h2>
       <div className="d-flex flex-column gap-3">
         {reviews.map((review) => {
           const product = getProduct(review.productId);

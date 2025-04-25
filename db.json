@@ -8,18 +8,39 @@
       "username": "Stacy"
     },
     {
-      "id": "ee89",
+      "id": "740d",
       "productId": 2,
-      "rating": 4,
-      "comment": "Classy",
-      "username": "John"
+      "rating": 5,
+      "comment": "I love the product",
+      "username": "Prince"
     },
     {
-      "id": "4c45",
+      "id": "8d39",
       "productId": 2,
       "rating": 1,
-      "comment": "I dont like men stuff",
-      "username": "Abby"
+      "comment": "not good",
+      "username": "chela"
+    },
+    {
+      "id": "3b5b",
+      "productId": 1,
+      "rating": 1,
+      "comment": "too small for my laptop",
+      "username": "Dorcas"
+    },
+    {
+      "id": "657f",
+      "productId": 3,
+      "rating": 1,
+      "comment": "amazing",
+      "username": "stacy"
+    },
+    {
+      "id": "9d62",
+      "productId": 15,
+      "rating": 2,
+      "comment": "I love the jacket",
+      "username": "Biy"
     }
   ]
 }
