@@ -55,7 +55,7 @@ function RatingModal({ product, onClose, onSubmit, rating, setRating, comment, s
             />
           </Form.Group>
 
-          <Button variant="primary" type="submit">Submit Review</Button>
+          <Button variant="dark" type="submit">Submit Review</Button>
         </Form>
       </Modal.Body>
     </Modal>

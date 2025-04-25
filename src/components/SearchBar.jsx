@@ -15,7 +15,7 @@ function SearchBar({ searchTerm, setSearchTerm }) {
         </Form>
       </Col>
       <Col md="auto" className="ms-2"> 
-        <Button variant="outline-primary">Search</Button>
+        <Button variant="outline-dark">Search</Button>
       </Col>
   
     </Row>

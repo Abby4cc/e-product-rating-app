@@ -6,7 +6,7 @@ const Home = () => {
     <h1 className="display-4 fw-bold">Discover Honest Product Ratings</h1>
     <p className="lead">Read real reviews, compare ratings, and shop smarter with confidence.</p>
     <a href="/products" className="btn btn-warning btn-lg mt-3">
-      Browse Products
+      Browse products
     </a>
   </div>
   );

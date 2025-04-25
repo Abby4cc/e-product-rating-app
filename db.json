@@ -1,27 +1,6 @@
 {
   "reviews": [
     {
-      "id": "c9a8",
-      "productId": 7,
-      "rating": 5,
-      "comment": "Goes well with your dinner dress",
-      "username": "Stacy"
-    },
-    {
-      "id": "740d",
-      "productId": 2,
-      "rating": 5,
-      "comment": "I love the product",
-      "username": "Prince"
-    },
-    {
-      "id": "8d39",
-      "productId": 2,
-      "rating": 1,
-      "comment": "not good",
-      "username": "chela"
-    },
-    {
       "id": "3b5b",
       "productId": 1,
       "rating": 1,
@@ -29,18 +8,18 @@
       "username": "Dorcas"
     },
     {
-      "id": "657f",
-      "productId": 3,
-      "rating": 1,
-      "comment": "amazing",
-      "username": "stacy"
-    },
-    {
       "id": "9d62",
       "productId": 15,
       "rating": 2,
       "comment": "I love the jacket",
       "username": "Biy"
+    },
+    {
+      "id": "4720",
+      "productId": 2,
+      "rating": 1,
+      "comment": "slim",
+      "username": "slim"
     }
   ]
 }
